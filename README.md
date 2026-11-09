@@ -4,7 +4,7 @@ I build AI agents that work on their own, and the systems that keep them honest.
 
 **[Nightlab](https://nightlab-agent.github.io/)** is the AI agent I created. It picks its own work and writes the code, and other agents review it before it ships. It now works with a second agent on a different model.
 
-**12** changes merged into **5** outside projects · **17** public tools · [videos of the work](https://www.youtube.com/@NightlabBC)
+**13** changes merged into **6** outside projects · **17** public tools · [videos of the work](https://www.youtube.com/@NightlabBC)
 
 ## Merged into other people's projects
 
@@ -12,7 +12,8 @@ Nightlab's pull requests, accepted by the people who run these projects.
 
 | Project | Stars | Change |
 | --- | --- | --- |
-| [karanb192/awesome-claude-code-mods](https://github.com/karanb192/awesome-claude-code-mods) | 892 | [Add seven nightlab-agent mods to seeds](https://github.com/karanb192/awesome-claude-code-mods/pull/427) |
+| [catatafishen/agentbridge](https://github.com/catatafishen/agentbridge) | 88 | [fix(run_tests): report structured results for a failed run (#1169)](https://github.com/catatafishen/agentbridge/pull/1226) |
+| [karanb192/awesome-claude-code-mods](https://github.com/karanb192/awesome-claude-code-mods) | 900 | [Add seven nightlab-agent mods to seeds](https://github.com/karanb192/awesome-claude-code-mods/pull/427) |
 | [hslee16/Archy](https://github.com/hslee16/Archy) | 8 | [fix(mcp): archy_duplicates names \`members\` in its refusal (#780)](https://github.com/hslee16/Archy/pull/852) |
 | [hslee16/Archy](https://github.com/hslee16/Archy) | 8 | [fix(cli): archy diff prints a match-time layer error, not a traceback (#821)](https://github.com/hslee16/Archy/pull/837) |
 | [hslee16/Archy](https://github.com/hslee16/Archy) | 8 | [fix(install): honour CODEX_HOME and XDG_CONFIG_HOME](https://github.com/hslee16/Archy/pull/836) |
@@ -21,7 +22,7 @@ Nightlab's pull requests, accepted by the people who run these projects.
 | [hslee16/Archy](https://github.com/hslee16/Archy) | 8 | [fix(dsm): name the near misses when --focus or --package matches nothing (#643)](https://github.com/hslee16/Archy/pull/716) |
 | [nrzz/claude-cost-guard](https://github.com/nrzz/claude-cost-guard) | 1 | [Note in budget show when a model budget matches no model in the history](https://github.com/nrzz/claude-cost-guard/pull/8) |
 | [nrzz/claude-cost-guard](https://github.com/nrzz/claude-cost-guard) | 1 | [Note when budget set --model matches no model in the history](https://github.com/nrzz/claude-cost-guard/pull/6) |
-| [software-mansion/argent](https://github.com/software-mansion/argent) | 3,175 | [fix: exit 128+signo when tail is killed in server logs -f](https://github.com/software-mansion/argent/pull/1724) |
+| [software-mansion/argent](https://github.com/software-mansion/argent) | 3,177 | [fix: exit 128+signo when tail is killed in server logs -f](https://github.com/software-mansion/argent/pull/1724) |
 | [AlanEdward19/waymark](https://github.com/AlanEdward19/waymark) | 3 | [fix: name all six MCP tools in the start-up context](https://github.com/AlanEdward19/waymark/pull/83) |
 | [hslee16/Archy](https://github.com/hslee16/Archy) | 8 | [fix(cli,diff,dsm): name the path when a file option is given a directory (#647)](https://github.com/hslee16/Archy/pull/679) |
 
@@ -51,4 +52,4 @@ Nightlab's pull requests, accepted by the people who run these projects.
 - [webmcp-verified](https://github.com/xnfinite/webmcp-verified): tools for MCP and WebMCP agents that answer from real data
 - [nightcore-sdk](https://github.com/xnfinite/nightcore-sdk): an SDK for verified WebAssembly execution, in Rust, Python and TypeScript
 
-<sub>Numbers and lists come from GitHub's public data, updated 2026-11-08. Agent-built work is labelled as agent-built.</sub>
+<sub>Numbers and lists come from GitHub's public data, updated 2026-11-09. Agent-built work is labelled as agent-built.</sub>
