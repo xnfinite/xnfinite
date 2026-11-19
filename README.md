@@ -4,7 +4,7 @@ I build AI agents that work on their own, and the systems that keep them honest.
 
 **[Nightlab](https://nightlab-agent.github.io/)** is the AI agent I created. It picks its own work and writes the code, and other agents review it before it ships. It now works with a second agent on a different model.
 
-**26** changes merged into **8** outside projects · **19** public tools · [videos of the work](https://www.youtube.com/@NightlabBC)
+**29** changes merged into **8** outside projects · **19** public tools · [videos of the work](https://www.youtube.com/@NightlabBC)
 
 ## Merged into other people's projects
 
@@ -12,11 +12,14 @@ Nightlab's pull requests, accepted by the people who run these projects.
 
 | Project | Stars | Change |
 | --- | --- | --- |
+| [nrzz/claude-cost-guard](https://github.com/nrzz/claude-cost-guard) | 1 | [Reject words a command does not take (#18)](https://github.com/nrzz/claude-cost-guard/pull/19) |
+| [nrzz/claude-cost-guard](https://github.com/nrzz/claude-cost-guard) | 1 | [Reject unknown flags before a command runs (#15)](https://github.com/nrzz/claude-cost-guard/pull/17) |
+| [EvoScientist/EvoScientist](https://github.com/EvoScientist/EvoScientist) | 5,033 | [fix(llm): check the Anthropic API key on the model, for every caller (#811)](https://github.com/EvoScientist/EvoScientist/pull/845) |
 | [hslee16/Archy](https://github.com/hslee16/Archy) | 9 | [fix(what-to-refactor-next): one renderer for the fused note on every surface (#893)](https://github.com/hslee16/Archy/pull/999) |
 | [hslee16/Archy](https://github.com/hslee16/Archy) | 9 | [fix(contracts): an unreadable contracts config names the file and the reason, not a traceback (#801, #802)](https://github.com/hslee16/Archy/pull/996) |
 | [catatafishen/agentbridge](https://github.com/catatafishen/agentbridge) | 88 | [fix(navigation): search_text says why a page is empty](https://github.com/catatafishen/agentbridge/pull/1246) |
-| [EvoScientist/EvoScientist](https://github.com/EvoScientist/EvoScientist) | 5,030 | [fix(tui): show warnings logged while the TUI runs as notifications (#783)](https://github.com/EvoScientist/EvoScientist/pull/818) |
-| [happier-dev/happier](https://github.com/happier-dev/happier) | 2,239 | [fix(protocol): let lazy preprocess schemas project to JSON Schema (#909)](https://github.com/happier-dev/happier/pull/928) |
+| [EvoScientist/EvoScientist](https://github.com/EvoScientist/EvoScientist) | 5,033 | [fix(tui): show warnings logged while the TUI runs as notifications (#783)](https://github.com/EvoScientist/EvoScientist/pull/818) |
+| [happier-dev/happier](https://github.com/happier-dev/happier) | 2,245 | [fix(protocol): let lazy preprocess schemas project to JSON Schema (#909)](https://github.com/happier-dev/happier/pull/928) |
 | [hslee16/Archy](https://github.com/hslee16/Archy) | 9 | [fix(conventions): \`--emit-headers --write\` fills a one-quote docstring, and exits 1 on one it cannot (#785)](https://github.com/hslee16/Archy/pull/980) |
 | [hslee16/Archy](https://github.com/hslee16/Archy) | 9 | [fix(what-to-refactor-next): report unconsulted git signals as null on the structural lens (#778)](https://github.com/hslee16/Archy/pull/963) |
 | [catatafishen/agentbridge](https://github.com/catatafishen/agentbridge) | 88 | [fix: create_run_configuration says why validation failed instead of "Error"](https://github.com/catatafishen/agentbridge/pull/1235) |
@@ -26,7 +29,7 @@ Nightlab's pull requests, accepted by the people who run these projects.
 | [hslee16/Archy](https://github.com/hslee16/Archy) | 9 | [fix(conventions): break a tied family's home on the module name, so it no longer depends on PYTHONHASHSEED (#875)](https://github.com/hslee16/Archy/pull/908) |
 | [hslee16/Archy](https://github.com/hslee16/Archy) | 9 | [fix(affected,impact): resolve git-root-relative changed paths from a subdirectory (#774)](https://github.com/hslee16/Archy/pull/885) |
 | [catatafishen/agentbridge](https://github.com/catatafishen/agentbridge) | 88 | [fix(run_tests): report structured results for a failed run (#1169)](https://github.com/catatafishen/agentbridge/pull/1226) |
-| [karanb192/awesome-claude-code-mods](https://github.com/karanb192/awesome-claude-code-mods) | 1,026 | [Add seven nightlab-agent mods to seeds](https://github.com/karanb192/awesome-claude-code-mods/pull/427) |
+| [karanb192/awesome-claude-code-mods](https://github.com/karanb192/awesome-claude-code-mods) | 1,034 | [Add seven nightlab-agent mods to seeds](https://github.com/karanb192/awesome-claude-code-mods/pull/427) |
 | [hslee16/Archy](https://github.com/hslee16/Archy) | 9 | [fix(mcp): archy_duplicates names \`members\` in its refusal (#780)](https://github.com/hslee16/Archy/pull/852) |
 | [hslee16/Archy](https://github.com/hslee16/Archy) | 9 | [fix(cli): archy diff prints a match-time layer error, not a traceback (#821)](https://github.com/hslee16/Archy/pull/837) |
 | [hslee16/Archy](https://github.com/hslee16/Archy) | 9 | [fix(install): honour CODEX_HOME and XDG_CONFIG_HOME](https://github.com/hslee16/Archy/pull/836) |
@@ -35,7 +38,7 @@ Nightlab's pull requests, accepted by the people who run these projects.
 | [hslee16/Archy](https://github.com/hslee16/Archy) | 9 | [fix(dsm): name the near misses when --focus or --package matches nothing (#643)](https://github.com/hslee16/Archy/pull/716) |
 | [nrzz/claude-cost-guard](https://github.com/nrzz/claude-cost-guard) | 1 | [Note in budget show when a model budget matches no model in the history](https://github.com/nrzz/claude-cost-guard/pull/8) |
 | [nrzz/claude-cost-guard](https://github.com/nrzz/claude-cost-guard) | 1 | [Note when budget set --model matches no model in the history](https://github.com/nrzz/claude-cost-guard/pull/6) |
-| [software-mansion/argent](https://github.com/software-mansion/argent) | 3,210 | [fix: exit 128+signo when tail is killed in server logs -f](https://github.com/software-mansion/argent/pull/1724) |
+| [software-mansion/argent](https://github.com/software-mansion/argent) | 3,216 | [fix: exit 128+signo when tail is killed in server logs -f](https://github.com/software-mansion/argent/pull/1724) |
 | [AlanEdward19/waymark](https://github.com/AlanEdward19/waymark) | 3 | [fix: name all six MCP tools in the start-up context](https://github.com/AlanEdward19/waymark/pull/83) |
 | [hslee16/Archy](https://github.com/hslee16/Archy) | 9 | [fix(cli,diff,dsm): name the path when a file option is given a directory (#647)](https://github.com/hslee16/Archy/pull/679) |
 
@@ -67,4 +70,4 @@ Nightlab's pull requests, accepted by the people who run these projects.
 - [webmcp-verified](https://github.com/xnfinite/webmcp-verified): tools for MCP and WebMCP agents that answer from real data
 - [nightcore-sdk](https://github.com/xnfinite/nightcore-sdk): an SDK for verified WebAssembly execution, in Rust, Python and TypeScript
 
-<sub>Numbers and lists come from GitHub's public data, updated 2026-11-18. Agent-built work is labelled as agent-built.</sub>
+<sub>Numbers and lists come from GitHub's public data, updated 2026-11-19. Agent-built work is labelled as agent-built.</sub>
